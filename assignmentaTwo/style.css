@@ -1,0 +1,81 @@
+.main-container {
+  border: 3px solid green;
+  width: 680px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 350px;
+}
+.header {
+  border: 3px solid yellow;
+  width: 650px;
+  height: 100px;
+  margin-left: 12px;
+  margin-top: 25px;
+  display: inline-block;
+}
+.logo {
+  border: 3px solid red;
+  width: 100px;
+  height: 50px;
+  margin-top: 22px;
+  margin-left: 20px;
+  display: inline-block;
+}
+.nav {
+  border: 3px solid green;
+  width: 400px;
+  height: 50px;
+  margin-top: 22px;
+  margin-right: 20px;
+  /* float: right; */
+  display: inline-block;
+}
+h5 {
+  margin: 0px;
+  text-align: left;
+}
+.p {
+  border: 3px solid blue;
+  width: 80px;
+  height: 30px;
+  margin: 10px;
+  margin-top: 7px;
+  /* float: right; */
+  display: inline-block;
+}
+.small-container {
+  border: 3px solid red;
+  width: 650px;
+  height: 210px;
+  margin-left: 12px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box1 {
+  border: 3px solid blue;
+  width: 30px;
+  height: 160px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  padding: 15px;
+  display: inline-block;
+}
+.box2 {
+  border: 3px solid blue;
+  width: 30px;
+  height: 120px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 15px;
+  display: inline-block;
+}
+.box3 {
+  border: 3px solid blue;
+  width: 30px;
+  height: 160px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  padding: 15px;
+  display: inline-block;
+}

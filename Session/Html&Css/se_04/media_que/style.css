@@ -1,0 +1,38 @@
+html {
+  background-color: whitesmoke;
+}
+h1 {
+  text-align: center;
+}
+body {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  background-color: blue;
+}
+.div {
+  width: 30%;
+  height: 200px;
+  background-color: black;
+  display: inline-block;
+  margin: 12px;
+}
+
+@media only screen and (max-width: 425px) {
+  .div {
+    width: 95%;
+    background-color: yellow;
+  }
+}
+@media only screen and (max-width: 786px) and (min-width: 426px) {
+  .div {
+    width: 45%;
+    background-color: orange;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 788px) {
+  .div {
+    width: 25%;
+    background-color: green;
+  }
+}

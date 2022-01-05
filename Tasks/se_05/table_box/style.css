@@ -1,0 +1,23 @@
+table,
+th,
+tr,
+td {
+  border: 5px solid black;
+  border-collapse: collapse;
+  margin: 150px;
+  margin-left: 250px;
+  padding: 11px 30px;
+  text-align: center;
+}
+.ofc{
+  background-color: lightsalmon;
+}
+.mat{
+  background-color: darkgreen
+}
+.csc{
+  background-color: purple;
+}
+.meet{
+  background-color: gray;
+}

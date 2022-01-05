@@ -1,0 +1,51 @@
+.container {
+  border: 2px solid green;
+  height: 700px;
+  width: 1000px;
+}
+.nav {
+  border: 2px solid yellow;
+  height: 130px;
+  width: 950px;
+  margin: 30px;
+}
+.nav-left {
+  height: 80px;
+  width: 20%;
+  border: 2px solid red;
+  float: left;
+  margin: 20px;
+}
+.nav-right {
+  height: 80px;
+  width: 70%;
+  border: 2px solid red;
+  float: right;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.img {
+  height: 50px;
+  width: 150px;
+  border: 2px solid blue;
+  margin: 10px;
+}
+.main {
+  height: 450px;
+  width: 950px;
+  border: 2px solid red;
+  margin: 26px 0 0 30px;
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  height: 300px;
+  width: 100px;
+  border: 2px solid blue;
+  margin: 100px;
+}
+.boxOne {
+  height: 200px;
+}

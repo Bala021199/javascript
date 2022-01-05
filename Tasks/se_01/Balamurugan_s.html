@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Balamurugan</title>
+    <script
+      src="https://kit.fontawesome.com/9b75ed8171.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style>
+    *{
+      background: url("./bg_02.jpg");
+    }
+    table,
+    th,
+    td,
+    tr {
+      border: 1px solid black;
+      border-collapse: collapse;
+      text-align: center;
+      margin: 10px;
+      padding: 10px;
+    }
+    button {
+      margin: 20px;
+      padding: 5px;
+    }
+    #check {
+      margin: 5px;
+      text-indent: 50px;
+    }
+    ::placeholder {
+      color: whitesmoke;
+    }
+    input:hover {
+      color: white !important;
+    }
+    input[type="text"] {
+      background-color: whitesmoke;
+    }
+  </style>
+  <body>
+    <h1 style="text-align: center">Resume</h1>
+    <ul>
+      <li>
+        <h2><b>Name:</b>Balamurugan</h2>
+      </li>
+      <li>
+        <h3><b>ph:</b>9655783609</h3>
+      </li>
+      <li>
+        <h3><b>Email:</b>balaurugan21199@gmail.com</h3>
+      </li>
+    </ul>
+    <hr />
+    <h1 style="text-decoration: underline">Objective</h1>
+    <p style="text-indent: 50px">
+      I'm Going to Learn Html,css,Javascript,Node,react.
+    </p>
+    <h1 style="text-decoration: underline">Education Qualification</h1>
+    <table>
+      <tr>
+        <th>Degree</th>
+        <th>College Name</th>
+        <th>Grade</th>
+        <th>Year of Passing</th>
+        <th>City</th>
+      </tr>
+      <tr>
+        <td>B.E</td>
+        <td>ECET</td>
+        <td>6.5</td>
+        <td>2020</td>
+        <td>CBE</td>
+      </tr>
+      <tr>
+        <td>12th</td>
+        <td>Hsc</td>
+        <td>6.1</td>
+        <td>2016</td>
+        <td>CBE</td>
+      </tr>
+      <tr>
+        <td>10th</td>
+        <td>Hslc</td>
+        <td>6.6</td>
+        <td>2014</td>
+        <td>CBE</td>
+      </tr>
+    </table>
+    <h1 style="text-decoration: underline">Skills</h1>
+    <ul>
+      <i class="fas fa-arrow-circle-right"> &nbsp;&nbsp;HTML </i
+      ><i class="fab fa-html5"></i
+      ><br />
+      <i class="fas fa-arrow-circle-right"> &nbsp;&nbsp;CSS</i
+      ><i class="fab fa-css3-alt"></i
+      ><br />
+      <i class="fas fa-arrow-circle-right"> &nbsp;&nbsp;JavaScript</i
+      ><i class="fab fa-js"></i
+      ><br />
+      <i class="fas fa-arrow-circle-right"> &nbsp;&nbsp;Angular Js</i
+      ><i class="fab fa-angular"></i
+      ><br />
+      <i class="fas fa-arrow-circle-right"> &nbsp;&nbsp;Node Js</i
+      ><i class="fab fa-node"></i>
+    </ul>
+    <h1 style="text-decoration: underline">Personal Details</h1>
+    <form>
+      <table>
+        <tr>
+          <td>Name:</td>
+          <td><input type="text" placeholder="Enter Your Name" /></td>
+        </tr>
+        <tr>
+          <td>Father's Name:</td>
+          <td>
+            <input type="text" placeholder="Enter Your Father's Name" />
+          </td>
+        </tr>
+        <tr>
+          <td>Address:</td>
+          <td><input type="text-area" placeholder="Enter Your Address" /></td>
+        </tr>
+        <tr>
+          <td>Mobile Number:</td>
+          <td>
+            <input type="number" placeholder="Enter Your Mobile Number" />
+          </td>
+        </tr>
+        <tr>
+          <td>gender:</td>
+          <td>
+            <input type="radio" />Male <input type="radio" />Female
+            <input type="radio" />Others
+          </td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input type="email" placeholder="Enter Your Email" /></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" /></td>
+        </tr>
+        <tr>
+          <td>High Qualification:</td>
+          <td>
+            <select>
+              <option>PG</option>
+              <option>UG</option>
+              <option>Other</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Choose File:</td>
+          <td><input type="file" /></td>
+        </tr>
+      </table>
+      <input id="check" type="checkbox" />All the Above Details are Correct
+      <br />
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

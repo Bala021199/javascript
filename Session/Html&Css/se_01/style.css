@@ -1,0 +1,30 @@
+h1 {
+  font-size: 20px;
+  color: blue;
+}
+p {
+  font-size: 15px;
+}
+
+body {
+  width: 800px;
+  height: 800px;
+  /* background-color: red; */
+  /* background-image: url('..');
+    background-repeat: no-repeat; */
+}
+#genFont {
+  font-family: "Times New Roman", Times, serif;
+}
+.p1 {
+  color: darkgreen;
+  text-align: left;
+}
+.p2 {
+  color: red;
+  text-align: center;
+}
+.p3 {
+  color: brown;
+  text-align: right;
+}

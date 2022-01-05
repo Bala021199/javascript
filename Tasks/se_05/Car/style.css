@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f2f1f2;
+}
+
+.container {
+  height: 100%;
+  width: 960px;
+  margin: 0 auto;
+  background-color: whitesmoke !important;
+}
+
+.header {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feature input {
+  margin: 0 8px;
+  padding: 5px 0;
+  border: none;
+  border-radius: 2px;
+  background-color: whitesmoke;
+}
+
+.feature select {
+  padding: 5px 0;
+  border: none;
+  border-radius: 2px;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.nav {
+  height: 40px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav ul li {
+  display: inline;
+  list-style-type: none;
+  padding: 10px 35px 10px 10px;
+}
+
+.navOne {
+  background-color: #017cbf;
+}
+
+.navOne a {
+  color: white;
+}
+
+.left {
+  float: left;
+  width: 68%;
+}
+
+.right {
+  float: right;
+  width: 32%;
+  padding: 12px;
+  background-color: #e2eff5;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.heading h4,
+a {
+  padding: 5px 5px 5px 2px;
+}
+
+.heading a {
+  color: #017cbf;
+  text-decoration: none;
+}
+
+.content {
+  margin: 10px 0;
+}
+
+.offer-img img {
+  height: 204px;
+  width: 294px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.car {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.sm {
+  list-style-image: url("./images/icon_sm_scase.gif");
+}
+
+.lg {
+  list-style-image: url("./images/icon_lg_scase.gif");
+}
+
+.man {
+  list-style-image: url("./images/icon_man.gif") !important;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.price,
+.car-img {
+  margin: 10px 0 0 15px;
+}
+
+.box {
+  margin: 15px 0 0 40px;
+}
+
+.price button {
+  border: none;
+  background-color: #017cbf;
+  color: white;
+  padding: 8px 8px;
+  cursor: pointer;
+}
+
+.car:nth-child(odd) {
+  background-color: white;
+}
+
+.car-img p {
+  text-align: center;
+}
+
+.footer-container {
+  height: 500px;
+  width: 960px;
+  background: black;
+  margin: 20px auto 0 auto;
+}
+
+.footer {
+  height: 200px;
+  width: 960px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #e2f0f5;
+  margin: 20px auto 0 auto;
+  padding-top: 25px;
+}
+
+.para ul {
+  list-style-image: url("./images/phoneIcon.png");
+}
+
+.copyrights {
+  width: 960px;
+  background-color: #e2eff5;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 22px;
+}
+
+.copyrights p {
+  font-size: 15px;
+}
+
+hr {
+  height: 9px;
+  background-color: blue;
+}
+
+.social,
+.para,
+.list {
+  margin: 20px 0 0 40px;
+}
+
+.list li {
+  padding-bottom: 5px;
+  list-style-type: none;
+}
+
+.list li {
+  color: #017cbf;
+}
+
+.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.social h3 {
+  margin-bottom: 10px;
+}
+
+.social input {
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 4px 8px;
+  background-color: #017cbf;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.price {
+  text-align: center;
+}
+
+.uk {
+  width: 150px;
+}
+
+.ph {
+  padding-bottom: 5px;
+  color: #017cbf;
+}
+/*# sourceMappingURL=style.css.map */

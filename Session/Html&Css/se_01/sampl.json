@@ -1,0 +1,83 @@
+{
+    "#comment": "",
+    "html": {
+      "@lang": "en",
+      "head": {
+        "meta": [
+          {
+            "@charset": "UTF-8"
+          },
+          {
+            "@http-equiv": "X-UA-Compatible",
+            "@content": "IE=edge"
+          },
+          {
+            "@name": "viewport",
+            "@content": "width=device-width, initial-scale=1.0"
+          }
+        ],
+        "title": "Document",
+        "link": {
+          "@rel": "stylesheet",
+          "@href": "./style.css"
+        }
+      },
+      "body": {
+        "h1": [
+          {
+            "@id": "genFont",
+            "#text": "CSS Class"
+          },
+          {
+            "@id": "genFont",
+            "#text": "Id&Class-Topics"
+          },
+          {
+            "@id": "genFont",
+            "#text": "Head 1"
+          },
+          {
+            "@id": "genFont",
+            "#text": "Head 2"
+          },
+          {
+            "@id": "genFont",
+            "#text": "Head 3"
+          },
+          {
+            "@id": "genFont",
+            "#text": "Head 4"
+          },
+          {
+            "@id": "genFont",
+            "#text": "Head 5"
+          }
+        ],
+        "p": [
+          {
+            "@id": "genFont",
+            "@class": "p1",
+            "#text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab accusantium\r\n      officiis nam dolores ad minus laborum, iste repellendus a veritatis sequi\r\n      quas, nemo praesentium, nihil quos minima. Vitae beatae inventore earum,\r\n      itaque laboriosam aut aliquid dolorem hic quos molestias, voluptate unde\r\n      fugiat dicta fugit optio ipsam voluptatibus sint doloremque eos sed! Ab\r\n      eligendi quod animi! Dolorum similique quam, animi magnam laudantium\r\n      corrupti doloremque eius consectetur veritatis dolor molestiae assumenda.\r\n      Impedit quia eligendi voluptatem mollitia doloremque delectus nulla quam\r\n      fugit pariatur."
+          },
+          {
+            "@class": "p2",
+            "#text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi minima\r\n      ad culpa est, iste at. Excepturi eligendi dolorem deleniti impedit sed,\r\n      eum asperiores facere aut. Adipisci animi velit officia aperiam laudantium\r\n      et, facere tempore? Dolorum exercitationem, odio quidem sed obcaecati\r\n      eaque omnis placeat quos perferendis provident nostrum voluptatum illo\r\n      deleniti sapiente aliquam sequi earum molestiae. Odio laudantium quis\r\n      ipsum dignissimos, officia accusamus laborum itaque odit autem neque\r\n      recusandae? Fugit quaerat omnis molestias iure voluptatum exercitationem\r\n      ipsam, quidem in nam molestiae. Ratione dolorem, sapiente labore nostrum\r\n      ex temporibus fugiat sit dolores."
+          },
+          {
+            "@class": "p3",
+            "#text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt soluta\r\n      dolorum porro molestias autem corrupti quisquam non obcaecati atque, qui\r\n      voluptatum assumenda quis reprehenderit ea, sapiente nemo totam adipisci\r\n      voluptates?"
+          },
+          {
+            "@id": "genFont",
+            "@class": "p2",
+            "#text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis\r\n      voluptatem impedit nisi ducimus eum. Numquam libero repellat sed unde\r\n      asperiores deleniti natus consequatur rerum explicabo odio. Hic\r\n      perferendis ratione est aperiam fugit excepturi officia, laboriosam vero\r\n      dolorum at corporis mollitia in aliquam quis deserunt dignissimos placeat\r\n      natus illo, quos distinctio animi dicta necessitatibus! Illum numquam ad\r\n      saepe non ab quasi minus reiciendis harum deleniti sit pariatur sapiente\r\n      doloribus, suscipit nisi et commodi magni ipsa debitis sint perspiciatis,\r\n      quae fugiat! Nam dolor omnis tenetur sapiente, nostrum natus consequuntur\r\n      veritatis quisquam vel, amet quae suscipit illum distinctio facilis\r\n      dolores voluptatum deserunt molestiae consectetur animi temporibus\r\n      praesentium laudantium ad iure. Placeat quae repellendus consequuntur\r\n      accusamus est, nobis voluptate cupiditate molestiae fuga molestias\r\n      obcaecati quia quaerat iusto aut tenetur aliquam possimus sed culpa quidem\r\n      temporibus porro, iure magni laudantium? Odit dicta nihil, optio\r\n      necessitatibus minima nam quaerat illo, dolores nulla ad rerum quasi\r\n      harum?"
+          },
+          {
+            "@id": "genFont",
+            "@class": "p3",
+            "#text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti saepe\r\n      dolorum debitis magnam iste natus minus quaerat in molestiae quas at\r\n      maxime, eius aut. Deserunt saepe et a harum quod praesentium pariatur.\r\n      Temporibus, magnam! Sint modi quod libero temporibus est veniam\r\n      exercitationem dolor, repudiandae, veritatis ad voluptate perspiciatis\r\n      quibusdam! Voluptates."
+          }
+        ]
+      }
+    }
+  }
